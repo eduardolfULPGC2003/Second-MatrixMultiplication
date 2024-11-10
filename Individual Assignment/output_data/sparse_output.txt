@@ -1,0 +1,2712 @@
+"C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Eduardo\Desktop\GCID\4º\BigData\Benchmarking_2\Individual Assignment\code\Java\sparse-matrix-multiplication\target\test-classes;C:\Users\Eduardo\Desktop\GCID\4º\BigData\Benchmarking_2\Individual Assignment\code\Java\sparse-matrix-multiplication\target\classes;C:\Users\Eduardo\.m2\repository\org\openjdk\jmh\jmh-core\1.35\jmh-core-1.35.jar;C:\Users\Eduardo\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Eduardo\.m2\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar;C:\Users\Eduardo\.m2\repository\org\openjdk\jmh\jmh-generator-annprocess\1.35\jmh-generator-annprocess-1.35.jar" org.openjdk.jmh.Main org.example.SparseMatrixMultiplicationBenchmarking.multiplication$
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 4, percentage = 0)
+
+# Run progress: 0.00% complete, ETA 00:22:30
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.035 ms/op
+# Warmup Iteration   2: 0.022 ms/op
+# Warmup Iteration   3: 0.007 ms/op
+# Warmup Iteration   4: 0.006 ms/op
+# Warmup Iteration   5: 0.006 ms/op
+Iteration   1: 0.006 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.006 ms/op
+Iteration   4: 0.006 ms/op
+Iteration   5: 0.006 ms/op
+
+# Run progress: 0.74% complete, ETA 00:25:06
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.030 ms/op
+# Warmup Iteration   2: 0.010 ms/op
+# Warmup Iteration   3: 0.007 ms/op
+# Warmup Iteration   4: 0.006 ms/op
+# Warmup Iteration   5: 0.006 ms/op
+Iteration   1: 0.007 ms/op
+Iteration   2: 0.007 ms/op
+Iteration   3: 0.006 ms/op
+Iteration   4: 0.007 ms/op
+Iteration   5: 0.007 ms/op
+
+# Run progress: 1.48% complete, ETA 00:24:48
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.018 ms/op
+# Warmup Iteration   2: 0.007 ms/op
+# Warmup Iteration   3: 0.007 ms/op
+# Warmup Iteration   4: 0.006 ms/op
+# Warmup Iteration   5: 0.006 ms/op
+Iteration   1: 0.006 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.006 ms/op
+Iteration   4: 0.006 ms/op
+Iteration   5: 0.006 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.006 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.006, 0.006, 0.007), stdev = 0.001
+  CI (99.9%): [0.006, 0.006] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 4, percentage = 0.2)
+
+# Run progress: 2.22% complete, ETA 00:24:32
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.015 ms/op
+# Warmup Iteration   2: 0.007 ms/op
+# Warmup Iteration   3: 0.007 ms/op
+# Warmup Iteration   4: 0.006 ms/op
+# Warmup Iteration   5: 0.006 ms/op
+Iteration   1: 0.006 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.007 ms/op
+Iteration   4: 0.006 ms/op
+Iteration   5: 0.006 ms/op
+
+# Run progress: 2.96% complete, ETA 00:24:22
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.013 ms/op
+# Warmup Iteration   2: 0.007 ms/op
+# Warmup Iteration   3: 0.006 ms/op
+# Warmup Iteration   4: 0.006 ms/op
+# Warmup Iteration   5: 0.006 ms/op
+Iteration   1: 0.006 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.006 ms/op
+Iteration   4: 0.006 ms/op
+Iteration   5: 0.006 ms/op
+
+# Run progress: 3.70% complete, ETA 00:24:09
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.015 ms/op
+# Warmup Iteration   2: 0.007 ms/op
+# Warmup Iteration   3: 0.007 ms/op
+# Warmup Iteration   4: 0.007 ms/op
+# Warmup Iteration   5: 0.006 ms/op
+Iteration   1: 0.007 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.006 ms/op
+Iteration   4: 0.006 ms/op
+Iteration   5: 0.006 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.006 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.006, 0.006, 0.007), stdev = 0.001
+  CI (99.9%): [0.006, 0.007] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 4, percentage = 0.4)
+
+# Run progress: 4.44% complete, ETA 00:23:56
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.009 ms/op
+# Warmup Iteration   2: 0.006 ms/op
+# Warmup Iteration   3: 0.006 ms/op
+# Warmup Iteration   4: 0.006 ms/op
+# Warmup Iteration   5: 0.006 ms/op
+Iteration   1: 0.006 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.006 ms/op
+Iteration   4: 0.006 ms/op
+Iteration   5: 0.006 ms/op
+
+# Run progress: 5.19% complete, ETA 00:23:45
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.012 ms/op
+# Warmup Iteration   2: 0.006 ms/op
+# Warmup Iteration   3: 0.006 ms/op
+# Warmup Iteration   4: 0.006 ms/op
+# Warmup Iteration   5: 0.006 ms/op
+Iteration   1: 0.007 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.007 ms/op
+Iteration   4: 0.007 ms/op
+Iteration   5: 0.006 ms/op
+
+# Run progress: 5.93% complete, ETA 00:23:33
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.011 ms/op
+# Warmup Iteration   2: 0.006 ms/op
+# Warmup Iteration   3: 0.007 ms/op
+# Warmup Iteration   4: 0.006 ms/op
+# Warmup Iteration   5: 0.006 ms/op
+Iteration   1: 0.006 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.006 ms/op
+Iteration   4: 0.006 ms/op
+Iteration   5: 0.006 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.006 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.006, 0.006, 0.007), stdev = 0.001
+  CI (99.9%): [0.006, 0.006] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 4, percentage = 0.6)
+
+# Run progress: 6.67% complete, ETA 00:23:22
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.009 ms/op
+# Warmup Iteration   2: 0.006 ms/op
+# Warmup Iteration   3: 0.006 ms/op
+# Warmup Iteration   4: 0.005 ms/op
+# Warmup Iteration   5: 0.006 ms/op
+Iteration   1: 0.006 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.006 ms/op
+Iteration   4: 0.006 ms/op
+Iteration   5: 0.006 ms/op
+
+# Run progress: 7.41% complete, ETA 00:23:10
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.010 ms/op
+# Warmup Iteration   2: 0.006 ms/op
+# Warmup Iteration   3: 0.006 ms/op
+# Warmup Iteration   4: 0.006 ms/op
+# Warmup Iteration   5: 0.006 ms/op
+Iteration   1: 0.006 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.006 ms/op
+Iteration   4: 0.006 ms/op
+Iteration   5: 0.006 ms/op
+
+# Run progress: 8.15% complete, ETA 00:22:58
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.010 ms/op
+# Warmup Iteration   2: 0.006 ms/op
+# Warmup Iteration   3: 0.006 ms/op
+# Warmup Iteration   4: 0.005 ms/op
+# Warmup Iteration   5: 0.006 ms/op
+Iteration   1: 0.005 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.005 ms/op
+Iteration   4: 0.005 ms/op
+Iteration   5: 0.006 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.006 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.005, 0.006, 0.006), stdev = 0.001
+  CI (99.9%): [0.005, 0.006] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 4, percentage = 0.8)
+
+# Run progress: 8.89% complete, ETA 00:22:46
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.009 ms/op
+# Warmup Iteration   2: 0.005 ms/op
+# Warmup Iteration   3: 0.005 ms/op
+# Warmup Iteration   4: 0.005 ms/op
+# Warmup Iteration   5: 0.005 ms/op
+Iteration   1: 0.005 ms/op
+Iteration   2: 0.005 ms/op
+Iteration   3: 0.005 ms/op
+Iteration   4: 0.005 ms/op
+Iteration   5: 0.005 ms/op
+
+# Run progress: 9.63% complete, ETA 00:22:35
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.012 ms/op
+# Warmup Iteration   2: 0.005 ms/op
+# Warmup Iteration   3: 0.005 ms/op
+# Warmup Iteration   4: 0.005 ms/op
+# Warmup Iteration   5: 0.005 ms/op
+Iteration   1: 0.005 ms/op
+Iteration   2: 0.005 ms/op
+Iteration   3: 0.005 ms/op
+Iteration   4: 0.005 ms/op
+Iteration   5: 0.005 ms/op
+
+# Run progress: 10.37% complete, ETA 00:22:24
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.009 ms/op
+# Warmup Iteration   2: 0.005 ms/op
+# Warmup Iteration   3: 0.005 ms/op
+# Warmup Iteration   4: 0.005 ms/op
+# Warmup Iteration   5: 0.005 ms/op
+Iteration   1: 0.005 ms/op
+Iteration   2: 0.005 ms/op
+Iteration   3: 0.005 ms/op
+Iteration   4: 0.005 ms/op
+Iteration   5: 0.005 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.005 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.005, 0.005, 0.005), stdev = 0.001
+  CI (99.9%): [0.005, 0.005] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 8, percentage = 0)
+
+# Run progress: 11.11% complete, ETA 00:22:12
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.064 ms/op
+# Warmup Iteration   2: 0.025 ms/op
+# Warmup Iteration   3: 0.017 ms/op
+# Warmup Iteration   4: 0.017 ms/op
+# Warmup Iteration   5: 0.017 ms/op
+Iteration   1: 0.016 ms/op
+Iteration   2: 0.016 ms/op
+Iteration   3: 0.016 ms/op
+Iteration   4: 0.016 ms/op
+Iteration   5: 0.016 ms/op
+
+# Run progress: 11.85% complete, ETA 00:22:01
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.050 ms/op
+# Warmup Iteration   2: 0.018 ms/op
+# Warmup Iteration   3: 0.017 ms/op
+# Warmup Iteration   4: 0.017 ms/op
+# Warmup Iteration   5: 0.016 ms/op
+Iteration   1: 0.016 ms/op
+Iteration   2: 0.016 ms/op
+Iteration   3: 0.016 ms/op
+Iteration   4: 0.016 ms/op
+Iteration   5: 0.016 ms/op
+
+# Run progress: 12.59% complete, ETA 00:21:50
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.044 ms/op
+# Warmup Iteration   2: 0.018 ms/op
+# Warmup Iteration   3: 0.017 ms/op
+# Warmup Iteration   4: 0.016 ms/op
+# Warmup Iteration   5: 0.016 ms/op
+Iteration   1: 0.016 ms/op
+Iteration   2: 0.016 ms/op
+Iteration   3: 0.017 ms/op
+Iteration   4: 0.016 ms/op
+Iteration   5: 0.016 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.016 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.016, 0.016, 0.017), stdev = 0.001
+  CI (99.9%): [0.016, 0.017] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 8, percentage = 0.2)
+
+# Run progress: 13.33% complete, ETA 00:21:39
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.071 ms/op
+# Warmup Iteration   2: 0.027 ms/op
+# Warmup Iteration   3: 0.018 ms/op
+# Warmup Iteration   4: 0.017 ms/op
+# Warmup Iteration   5: 0.017 ms/op
+Iteration   1: 0.018 ms/op
+Iteration   2: 0.017 ms/op
+Iteration   3: 0.017 ms/op
+Iteration   4: 0.017 ms/op
+Iteration   5: 0.017 ms/op
+
+# Run progress: 14.07% complete, ETA 00:21:28
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.056 ms/op
+# Warmup Iteration   2: 0.028 ms/op
+# Warmup Iteration   3: 0.018 ms/op
+# Warmup Iteration   4: 0.017 ms/op
+# Warmup Iteration   5: 0.018 ms/op
+Iteration   1: 0.019 ms/op
+Iteration   2: 0.017 ms/op
+Iteration   3: 0.017 ms/op
+Iteration   4: 0.017 ms/op
+Iteration   5: 0.017 ms/op
+
+# Run progress: 14.81% complete, ETA 00:21:16
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.062 ms/op
+# Warmup Iteration   2: 0.023 ms/op
+# Warmup Iteration   3: 0.018 ms/op
+# Warmup Iteration   4: 0.017 ms/op
+# Warmup Iteration   5: 0.018 ms/op
+Iteration   1: 0.017 ms/op
+Iteration   2: 0.017 ms/op
+Iteration   3: 0.017 ms/op
+Iteration   4: 0.017 ms/op
+Iteration   5: 0.017 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.017 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.017, 0.017, 0.019), stdev = 0.001
+  CI (99.9%): [0.017, 0.018] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 8, percentage = 0.4)
+
+# Run progress: 15.56% complete, ETA 00:21:05
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.046 ms/op
+# Warmup Iteration   2: 0.019 ms/op
+# Warmup Iteration   3: 0.018 ms/op
+# Warmup Iteration   4: 0.018 ms/op
+# Warmup Iteration   5: 0.017 ms/op
+Iteration   1: 0.017 ms/op
+Iteration   2: 0.017 ms/op
+Iteration   3: 0.017 ms/op
+Iteration   4: 0.017 ms/op
+Iteration   5: 0.017 ms/op
+
+# Run progress: 16.30% complete, ETA 00:20:54
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.044 ms/op
+# Warmup Iteration   2: 0.021 ms/op
+# Warmup Iteration   3: 0.018 ms/op
+# Warmup Iteration   4: 0.017 ms/op
+# Warmup Iteration   5: 0.017 ms/op
+Iteration   1: 0.017 ms/op
+Iteration   2: 0.017 ms/op
+Iteration   3: 0.017 ms/op
+Iteration   4: 0.017 ms/op
+Iteration   5: 0.017 ms/op
+
+# Run progress: 17.04% complete, ETA 00:20:43
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.073 ms/op
+# Warmup Iteration   2: 0.024 ms/op
+# Warmup Iteration   3: 0.017 ms/op
+# Warmup Iteration   4: 0.016 ms/op
+# Warmup Iteration   5: 0.016 ms/op
+Iteration   1: 0.016 ms/op
+Iteration   2: 0.017 ms/op
+Iteration   3: 0.016 ms/op
+Iteration   4: 0.016 ms/op
+Iteration   5: 0.016 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.017 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.016, 0.017, 0.017), stdev = 0.001
+  CI (99.9%): [0.016, 0.017] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 8, percentage = 0.6)
+
+# Run progress: 17.78% complete, ETA 00:20:32
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.053 ms/op
+# Warmup Iteration   2: 0.023 ms/op
+# Warmup Iteration   3: 0.018 ms/op
+# Warmup Iteration   4: 0.017 ms/op
+# Warmup Iteration   5: 0.016 ms/op
+Iteration   1: 0.016 ms/op
+Iteration   2: 0.017 ms/op
+Iteration   3: 0.016 ms/op
+Iteration   4: 0.015 ms/op
+Iteration   5: 0.016 ms/op
+
+# Run progress: 18.52% complete, ETA 00:20:21
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.048 ms/op
+# Warmup Iteration   2: 0.021 ms/op
+# Warmup Iteration   3: 0.016 ms/op
+# Warmup Iteration   4: 0.015 ms/op
+# Warmup Iteration   5: 0.015 ms/op
+Iteration   1: 0.015 ms/op
+Iteration   2: 0.015 ms/op
+Iteration   3: 0.015 ms/op
+Iteration   4: 0.015 ms/op
+Iteration   5: 0.015 ms/op
+
+# Run progress: 19.26% complete, ETA 00:20:10
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.038 ms/op
+# Warmup Iteration   2: 0.018 ms/op
+# Warmup Iteration   3: 0.016 ms/op
+# Warmup Iteration   4: 0.016 ms/op
+# Warmup Iteration   5: 0.016 ms/op
+Iteration   1: 0.016 ms/op
+Iteration   2: 0.015 ms/op
+Iteration   3: 0.016 ms/op
+Iteration   4: 0.016 ms/op
+Iteration   5: 0.016 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.016 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.015, 0.016, 0.017), stdev = 0.001
+  CI (99.9%): [0.015, 0.016] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 8, percentage = 0.8)
+
+# Run progress: 20.00% complete, ETA 00:19:59
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.037 ms/op
+# Warmup Iteration   2: 0.014 ms/op
+# Warmup Iteration   3: 0.013 ms/op
+# Warmup Iteration   4: 0.012 ms/op
+# Warmup Iteration   5: 0.011 ms/op
+Iteration   1: 0.011 ms/op
+Iteration   2: 0.012 ms/op
+Iteration   3: 0.011 ms/op
+Iteration   4: 0.011 ms/op
+Iteration   5: 0.011 ms/op
+
+# Run progress: 20.74% complete, ETA 00:19:48
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.029 ms/op
+# Warmup Iteration   2: 0.013 ms/op
+# Warmup Iteration   3: 0.012 ms/op
+# Warmup Iteration   4: 0.011 ms/op
+# Warmup Iteration   5: 0.012 ms/op
+Iteration   1: 0.012 ms/op
+Iteration   2: 0.011 ms/op
+Iteration   3: 0.011 ms/op
+Iteration   4: 0.011 ms/op
+Iteration   5: 0.011 ms/op
+
+# Run progress: 21.48% complete, ETA 00:19:37
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.023 ms/op
+# Warmup Iteration   2: 0.012 ms/op
+# Warmup Iteration   3: 0.011 ms/op
+# Warmup Iteration   4: 0.011 ms/op
+# Warmup Iteration   5: 0.011 ms/op
+Iteration   1: 0.011 ms/op
+Iteration   2: 0.011 ms/op
+Iteration   3: 0.011 ms/op
+Iteration   4: 0.011 ms/op
+Iteration   5: 0.011 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.011 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.011, 0.011, 0.012), stdev = 0.001
+  CI (99.9%): [0.011, 0.012] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 16, percentage = 0)
+
+# Run progress: 22.22% complete, ETA 00:19:25
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.153 ms/op
+# Warmup Iteration   2: 0.065 ms/op
+# Warmup Iteration   3: 0.058 ms/op
+# Warmup Iteration   4: 0.060 ms/op
+# Warmup Iteration   5: 0.059 ms/op
+Iteration   1: 0.059 ms/op
+Iteration   2: 0.059 ms/op
+Iteration   3: 0.059 ms/op
+Iteration   4: 0.060 ms/op
+Iteration   5: 0.059 ms/op
+
+# Run progress: 22.96% complete, ETA 00:19:14
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.322 ms/op
+# Warmup Iteration   2: 0.068 ms/op
+# Warmup Iteration   3: 0.069 ms/op
+# Warmup Iteration   4: 0.060 ms/op
+# Warmup Iteration   5: 0.060 ms/op
+Iteration   1: 0.059 ms/op
+Iteration   2: 0.059 ms/op
+Iteration   3: 0.060 ms/op
+Iteration   4: 0.058 ms/op
+Iteration   5: 0.059 ms/op
+
+# Run progress: 23.70% complete, ETA 00:19:03
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.473 ms/op
+# Warmup Iteration   2: 0.079 ms/op
+# Warmup Iteration   3: 0.061 ms/op
+# Warmup Iteration   4: 0.059 ms/op
+# Warmup Iteration   5: 0.059 ms/op
+Iteration   1: 0.059 ms/op
+Iteration   2: 0.059 ms/op
+Iteration   3: 0.059 ms/op
+Iteration   4: 0.058 ms/op
+Iteration   5: 0.057 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.059 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.057, 0.059, 0.060), stdev = 0.001
+  CI (99.9%): [0.058, 0.060] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 16, percentage = 0.2)
+
+# Run progress: 24.44% complete, ETA 00:18:52
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.179 ms/op
+# Warmup Iteration   2: 0.080 ms/op
+# Warmup Iteration   3: 0.059 ms/op
+# Warmup Iteration   4: 0.058 ms/op
+# Warmup Iteration   5: 0.060 ms/op
+Iteration   1: 0.059 ms/op
+Iteration   2: 0.058 ms/op
+Iteration   3: 0.060 ms/op
+Iteration   4: 0.068 ms/op
+Iteration   5: 0.063 ms/op
+
+# Run progress: 25.19% complete, ETA 00:18:41
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.239 ms/op
+# Warmup Iteration   2: 0.097 ms/op
+# Warmup Iteration   3: 0.061 ms/op
+# Warmup Iteration   4: 0.059 ms/op
+# Warmup Iteration   5: 0.062 ms/op
+Iteration   1: 0.071 ms/op
+Iteration   2: 0.064 ms/op
+Iteration   3: 0.058 ms/op
+Iteration   4: 0.064 ms/op
+Iteration   5: 0.062 ms/op
+
+# Run progress: 25.93% complete, ETA 00:18:30
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.221 ms/op
+# Warmup Iteration   2: 0.063 ms/op
+# Warmup Iteration   3: 0.062 ms/op
+# Warmup Iteration   4: 0.059 ms/op
+# Warmup Iteration   5: 0.058 ms/op
+Iteration   1: 0.057 ms/op
+Iteration   2: 0.063 ms/op
+Iteration   3: 0.060 ms/op
+Iteration   4: 0.056 ms/op
+Iteration   5: 0.056 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.061 ±(99.9%) 0.005 ms/op [Average]
+  (min, avg, max) = (0.056, 0.061, 0.071), stdev = 0.004
+  CI (99.9%): [0.057, 0.066] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 16, percentage = 0.4)
+
+# Run progress: 26.67% complete, ETA 00:18:19
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.137 ms/op
+# Warmup Iteration   2: 0.067 ms/op
+# Warmup Iteration   3: 0.058 ms/op
+# Warmup Iteration   4: 0.056 ms/op
+# Warmup Iteration   5: 0.056 ms/op
+Iteration   1: 0.056 ms/op
+Iteration   2: 0.058 ms/op
+Iteration   3: 0.055 ms/op
+Iteration   4: 0.055 ms/op
+Iteration   5: 0.055 ms/op
+
+# Run progress: 27.41% complete, ETA 00:18:08
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.143 ms/op
+# Warmup Iteration   2: 0.061 ms/op
+# Warmup Iteration   3: 0.056 ms/op
+# Warmup Iteration   4: 0.054 ms/op
+# Warmup Iteration   5: 0.055 ms/op
+Iteration   1: 0.055 ms/op
+Iteration   2: 0.054 ms/op
+Iteration   3: 0.054 ms/op
+Iteration   4: 0.055 ms/op
+Iteration   5: 0.058 ms/op
+
+# Run progress: 28.15% complete, ETA 00:17:57
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.124 ms/op
+# Warmup Iteration   2: 0.073 ms/op
+# Warmup Iteration   3: 0.063 ms/op
+# Warmup Iteration   4: 0.056 ms/op
+# Warmup Iteration   5: 0.060 ms/op
+Iteration   1: 0.057 ms/op
+Iteration   2: 0.059 ms/op
+Iteration   3: 0.060 ms/op
+Iteration   4: 0.057 ms/op
+Iteration   5: 0.057 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.056 ±(99.9%) 0.002 ms/op [Average]
+  (min, avg, max) = (0.054, 0.056, 0.060), stdev = 0.002
+  CI (99.9%): [0.054, 0.058] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 16, percentage = 0.6)
+
+# Run progress: 28.89% complete, ETA 00:17:46
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.114 ms/op
+# Warmup Iteration   2: 0.055 ms/op
+# Warmup Iteration   3: 0.051 ms/op
+# Warmup Iteration   4: 0.050 ms/op
+# Warmup Iteration   5: 0.050 ms/op
+Iteration   1: 0.049 ms/op
+Iteration   2: 0.051 ms/op
+Iteration   3: 0.050 ms/op
+Iteration   4: 0.051 ms/op
+Iteration   5: 0.053 ms/op
+
+# Run progress: 29.63% complete, ETA 00:17:35
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.123 ms/op
+# Warmup Iteration   2: 0.056 ms/op
+# Warmup Iteration   3: 0.056 ms/op
+# Warmup Iteration   4: 0.050 ms/op
+# Warmup Iteration   5: 0.050 ms/op
+Iteration   1: 0.051 ms/op
+Iteration   2: 0.050 ms/op
+Iteration   3: 0.051 ms/op
+Iteration   4: 0.049 ms/op
+Iteration   5: 0.050 ms/op
+
+# Run progress: 30.37% complete, ETA 00:17:23
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.115 ms/op
+# Warmup Iteration   2: 0.065 ms/op
+# Warmup Iteration   3: 0.051 ms/op
+# Warmup Iteration   4: 0.050 ms/op
+# Warmup Iteration   5: 0.050 ms/op
+Iteration   1: 0.050 ms/op
+Iteration   2: 0.051 ms/op
+Iteration   3: 0.050 ms/op
+Iteration   4: 0.052 ms/op
+Iteration   5: 0.051 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.051 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.049, 0.051, 0.053), stdev = 0.001
+  CI (99.9%): [0.049, 0.052] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 16, percentage = 0.8)
+
+# Run progress: 31.11% complete, ETA 00:17:12
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.120 ms/op
+# Warmup Iteration   2: 0.047 ms/op
+# Warmup Iteration   3: 0.039 ms/op
+# Warmup Iteration   4: 0.037 ms/op
+# Warmup Iteration   5: 0.038 ms/op
+Iteration   1: 0.037 ms/op
+Iteration   2: 0.037 ms/op
+Iteration   3: 0.037 ms/op
+Iteration   4: 0.037 ms/op
+Iteration   5: 0.038 ms/op
+
+# Run progress: 31.85% complete, ETA 00:17:01
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.095 ms/op
+# Warmup Iteration   2: 0.041 ms/op
+# Warmup Iteration   3: 0.040 ms/op
+# Warmup Iteration   4: 0.039 ms/op
+# Warmup Iteration   5: 0.041 ms/op
+Iteration   1: 0.040 ms/op
+Iteration   2: 0.039 ms/op
+Iteration   3: 0.038 ms/op
+Iteration   4: 0.039 ms/op
+Iteration   5: 0.038 ms/op
+
+# Run progress: 32.59% complete, ETA 00:16:50
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.082 ms/op
+# Warmup Iteration   2: 0.041 ms/op
+# Warmup Iteration   3: 0.041 ms/op
+# Warmup Iteration   4: 0.038 ms/op
+# Warmup Iteration   5: 0.038 ms/op
+Iteration   1: 0.038 ms/op
+Iteration   2: 0.038 ms/op
+Iteration   3: 0.039 ms/op
+Iteration   4: 0.038 ms/op
+Iteration   5: 0.038 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.038 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.037, 0.038, 0.040), stdev = 0.001
+  CI (99.9%): [0.037, 0.039] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 32, percentage = 0)
+
+# Run progress: 33.33% complete, ETA 00:16:39
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.412 ms/op
+# Warmup Iteration   2: 0.275 ms/op
+# Warmup Iteration   3: 0.248 ms/op
+# Warmup Iteration   4: 0.247 ms/op
+# Warmup Iteration   5: 0.248 ms/op
+Iteration   1: 0.247 ms/op
+Iteration   2: 0.203 ms/op
+Iteration   3: 0.122 ms/op
+Iteration   4: 0.117 ms/op
+Iteration   5: 0.117 ms/op
+
+# Run progress: 34.07% complete, ETA 00:16:28
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.151 ms/op
+# Warmup Iteration   2: 0.115 ms/op
+# Warmup Iteration   3: 0.111 ms/op
+# Warmup Iteration   4: 0.112 ms/op
+# Warmup Iteration   5: 0.111 ms/op
+Iteration   1: 0.111 ms/op
+Iteration   2: 0.111 ms/op
+Iteration   3: 0.111 ms/op
+Iteration   4: 0.110 ms/op
+Iteration   5: 0.110 ms/op
+
+# Run progress: 34.81% complete, ETA 00:16:16
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.147 ms/op
+# Warmup Iteration   2: 0.111 ms/op
+# Warmup Iteration   3: 0.111 ms/op
+# Warmup Iteration   4: 0.110 ms/op
+# Warmup Iteration   5: 0.111 ms/op
+Iteration   1: 0.111 ms/op
+Iteration   2: 0.110 ms/op
+Iteration   3: 0.110 ms/op
+Iteration   4: 0.110 ms/op
+Iteration   5: 0.110 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.127 ±(99.9%) 0.043 ms/op [Average]
+  (min, avg, max) = (0.110, 0.127, 0.247), stdev = 0.041
+  CI (99.9%): [0.084, 0.171] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 32, percentage = 0.2)
+
+# Run progress: 35.56% complete, ETA 00:16:04
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.139 ms/op
+# Warmup Iteration   2: 0.102 ms/op
+# Warmup Iteration   3: 0.102 ms/op
+# Warmup Iteration   4: 0.102 ms/op
+# Warmup Iteration   5: 0.102 ms/op
+Iteration   1: 0.102 ms/op
+Iteration   2: 0.101 ms/op
+Iteration   3: 0.101 ms/op
+Iteration   4: 0.101 ms/op
+Iteration   5: 0.101 ms/op
+
+# Run progress: 36.30% complete, ETA 00:15:53
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.132 ms/op
+# Warmup Iteration   2: 0.102 ms/op
+# Warmup Iteration   3: 0.102 ms/op
+# Warmup Iteration   4: 0.102 ms/op
+# Warmup Iteration   5: 0.103 ms/op
+Iteration   1: 0.102 ms/op
+Iteration   2: 0.101 ms/op
+Iteration   3: 0.101 ms/op
+Iteration   4: 0.101 ms/op
+Iteration   5: 0.101 ms/op
+
+# Run progress: 37.04% complete, ETA 00:15:41
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.134 ms/op
+# Warmup Iteration   2: 0.102 ms/op
+# Warmup Iteration   3: 0.102 ms/op
+# Warmup Iteration   4: 0.102 ms/op
+# Warmup Iteration   5: 0.103 ms/op
+Iteration   1: 0.102 ms/op
+Iteration   2: 0.104 ms/op
+Iteration   3: 0.102 ms/op
+Iteration   4: 0.101 ms/op
+Iteration   5: 0.101 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.102 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.101, 0.102, 0.104), stdev = 0.001
+  CI (99.9%): [0.101, 0.102] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 32, percentage = 0.4)
+
+# Run progress: 37.78% complete, ETA 00:15:29
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.137 ms/op
+# Warmup Iteration   2: 0.094 ms/op
+# Warmup Iteration   3: 0.094 ms/op
+# Warmup Iteration   4: 0.095 ms/op
+# Warmup Iteration   5: 0.094 ms/op
+Iteration   1: 0.094 ms/op
+Iteration   2: 0.094 ms/op
+Iteration   3: 0.094 ms/op
+Iteration   4: 0.094 ms/op
+Iteration   5: 0.094 ms/op
+
+# Run progress: 38.52% complete, ETA 00:15:16
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.121 ms/op
+# Warmup Iteration   2: 0.094 ms/op
+# Warmup Iteration   3: 0.094 ms/op
+# Warmup Iteration   4: 0.094 ms/op
+# Warmup Iteration   5: 0.094 ms/op
+Iteration   1: 0.094 ms/op
+Iteration   2: 0.094 ms/op
+Iteration   3: 0.094 ms/op
+Iteration   4: 0.094 ms/op
+Iteration   5: 0.094 ms/op
+
+# Run progress: 39.26% complete, ETA 00:15:04
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.137 ms/op
+# Warmup Iteration   2: 0.095 ms/op
+# Warmup Iteration   3: 0.094 ms/op
+# Warmup Iteration   4: 0.094 ms/op
+# Warmup Iteration   5: 0.094 ms/op
+Iteration   1: 0.094 ms/op
+Iteration   2: 0.094 ms/op
+Iteration   3: 0.094 ms/op
+Iteration   4: 0.094 ms/op
+Iteration   5: 0.094 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.094 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.094, 0.094, 0.094), stdev = 0.001
+  CI (99.9%): [0.094, 0.094] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 32, percentage = 0.6)
+
+# Run progress: 40.00% complete, ETA 00:14:52
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.110 ms/op
+# Warmup Iteration   2: 0.084 ms/op
+# Warmup Iteration   3: 0.082 ms/op
+# Warmup Iteration   4: 0.084 ms/op
+# Warmup Iteration   5: 0.086 ms/op
+Iteration   1: 0.085 ms/op
+Iteration   2: 0.082 ms/op
+Iteration   3: 0.083 ms/op
+Iteration   4: 0.082 ms/op
+Iteration   5: 0.082 ms/op
+
+# Run progress: 40.74% complete, ETA 00:14:40
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.104 ms/op
+# Warmup Iteration   2: 0.083 ms/op
+# Warmup Iteration   3: 0.082 ms/op
+# Warmup Iteration   4: 0.084 ms/op
+# Warmup Iteration   5: 0.082 ms/op
+Iteration   1: 0.082 ms/op
+Iteration   2: 0.082 ms/op
+Iteration   3: 0.084 ms/op
+Iteration   4: 0.082 ms/op
+Iteration   5: 0.083 ms/op
+
+# Run progress: 41.48% complete, ETA 00:14:28
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.110 ms/op
+# Warmup Iteration   2: 0.082 ms/op
+# Warmup Iteration   3: 0.082 ms/op
+# Warmup Iteration   4: 0.082 ms/op
+# Warmup Iteration   5: 0.082 ms/op
+Iteration   1: 0.082 ms/op
+Iteration   2: 0.082 ms/op
+Iteration   3: 0.082 ms/op
+Iteration   4: 0.082 ms/op
+Iteration   5: 0.082 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.082 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.082, 0.082, 0.085), stdev = 0.001
+  CI (99.9%): [0.082, 0.083] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 32, percentage = 0.8)
+
+# Run progress: 42.22% complete, ETA 00:14:17
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.084 ms/op
+# Warmup Iteration   2: 0.063 ms/op
+# Warmup Iteration   3: 0.062 ms/op
+# Warmup Iteration   4: 0.062 ms/op
+# Warmup Iteration   5: 0.061 ms/op
+Iteration   1: 0.061 ms/op
+Iteration   2: 0.061 ms/op
+Iteration   3: 0.061 ms/op
+Iteration   4: 0.061 ms/op
+Iteration   5: 0.061 ms/op
+
+# Run progress: 42.96% complete, ETA 00:14:05
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.087 ms/op
+# Warmup Iteration   2: 0.064 ms/op
+# Warmup Iteration   3: 0.063 ms/op
+# Warmup Iteration   4: 0.063 ms/op
+# Warmup Iteration   5: 0.061 ms/op
+Iteration   1: 0.061 ms/op
+Iteration   2: 0.061 ms/op
+Iteration   3: 0.061 ms/op
+Iteration   4: 0.062 ms/op
+Iteration   5: 0.062 ms/op
+
+# Run progress: 43.70% complete, ETA 00:13:53
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.085 ms/op
+# Warmup Iteration   2: 0.063 ms/op
+# Warmup Iteration   3: 0.062 ms/op
+# Warmup Iteration   4: 0.062 ms/op
+# Warmup Iteration   5: 0.062 ms/op
+Iteration   1: 0.061 ms/op
+Iteration   2: 0.061 ms/op
+Iteration   3: 0.061 ms/op
+Iteration   4: 0.061 ms/op
+Iteration   5: 0.061 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.061 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.061, 0.061, 0.062), stdev = 0.001
+  CI (99.9%): [0.061, 0.062] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 64, percentage = 0)
+
+# Run progress: 44.44% complete, ETA 00:13:41
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.594 ms/op
+# Warmup Iteration   2: 0.490 ms/op
+# Warmup Iteration   3: 0.492 ms/op
+# Warmup Iteration   4: 0.493 ms/op
+# Warmup Iteration   5: 0.491 ms/op
+Iteration   1: 0.492 ms/op
+Iteration   2: 0.492 ms/op
+Iteration   3: 0.492 ms/op
+Iteration   4: 0.493 ms/op
+Iteration   5: 0.491 ms/op
+
+# Run progress: 45.19% complete, ETA 00:13:30
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.609 ms/op
+# Warmup Iteration   2: 0.493 ms/op
+# Warmup Iteration   3: 0.492 ms/op
+# Warmup Iteration   4: 0.495 ms/op
+# Warmup Iteration   5: 0.489 ms/op
+Iteration   1: 0.489 ms/op
+Iteration   2: 0.491 ms/op
+Iteration   3: 0.490 ms/op
+Iteration   4: 0.493 ms/op
+Iteration   5: 0.490 ms/op
+
+# Run progress: 45.93% complete, ETA 00:13:18
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.592 ms/op
+# Warmup Iteration   2: 0.477 ms/op
+# Warmup Iteration   3: 0.474 ms/op
+# Warmup Iteration   4: 0.476 ms/op
+# Warmup Iteration   5: 0.477 ms/op
+Iteration   1: 0.487 ms/op
+Iteration   2: 0.476 ms/op
+Iteration   3: 0.497 ms/op
+Iteration   4: 0.475 ms/op
+Iteration   5: 0.486 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.489 ±(99.9%) 0.007 ms/op [Average]
+  (min, avg, max) = (0.475, 0.489, 0.497), stdev = 0.006
+  CI (99.9%): [0.482, 0.495] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 64, percentage = 0.2)
+
+# Run progress: 46.67% complete, ETA 00:13:06
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.521 ms/op
+# Warmup Iteration   2: 0.429 ms/op
+# Warmup Iteration   3: 0.430 ms/op
+# Warmup Iteration   4: 0.431 ms/op
+# Warmup Iteration   5: 0.431 ms/op
+Iteration   1: 0.431 ms/op
+Iteration   2: 0.431 ms/op
+Iteration   3: 0.432 ms/op
+Iteration   4: 0.432 ms/op
+Iteration   5: 0.431 ms/op
+
+# Run progress: 47.41% complete, ETA 00:12:55
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.540 ms/op
+# Warmup Iteration   2: 0.434 ms/op
+# Warmup Iteration   3: 0.433 ms/op
+# Warmup Iteration   4: 0.435 ms/op
+# Warmup Iteration   5: 0.435 ms/op
+Iteration   1: 0.435 ms/op
+Iteration   2: 0.437 ms/op
+Iteration   3: 0.434 ms/op
+Iteration   4: 0.436 ms/op
+Iteration   5: 0.436 ms/op
+
+# Run progress: 48.15% complete, ETA 00:12:43
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.531 ms/op
+# Warmup Iteration   2: 0.428 ms/op
+# Warmup Iteration   3: 0.429 ms/op
+# Warmup Iteration   4: 0.431 ms/op
+# Warmup Iteration   5: 0.432 ms/op
+Iteration   1: 0.430 ms/op
+Iteration   2: 0.431 ms/op
+Iteration   3: 0.430 ms/op
+Iteration   4: 0.429 ms/op
+Iteration   5: 0.431 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.432 ±(99.9%) 0.003 ms/op [Average]
+  (min, avg, max) = (0.429, 0.432, 0.437), stdev = 0.003
+  CI (99.9%): [0.430, 0.435] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 64, percentage = 0.4)
+
+# Run progress: 48.89% complete, ETA 00:12:32
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.477 ms/op
+# Warmup Iteration   2: 0.394 ms/op
+# Warmup Iteration   3: 0.393 ms/op
+# Warmup Iteration   4: 0.394 ms/op
+# Warmup Iteration   5: 0.394 ms/op
+Iteration   1: 0.394 ms/op
+Iteration   2: 0.394 ms/op
+Iteration   3: 0.393 ms/op
+Iteration   4: 0.394 ms/op
+Iteration   5: 0.394 ms/op
+
+# Run progress: 49.63% complete, ETA 00:12:20
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.470 ms/op
+# Warmup Iteration   2: 0.401 ms/op
+# Warmup Iteration   3: 0.401 ms/op
+# Warmup Iteration   4: 0.402 ms/op
+# Warmup Iteration   5: 0.403 ms/op
+Iteration   1: 0.401 ms/op
+Iteration   2: 0.401 ms/op
+Iteration   3: 0.402 ms/op
+Iteration   4: 0.401 ms/op
+Iteration   5: 0.402 ms/op
+
+# Run progress: 50.37% complete, ETA 00:12:09
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.475 ms/op
+# Warmup Iteration   2: 0.401 ms/op
+# Warmup Iteration   3: 0.402 ms/op
+# Warmup Iteration   4: 0.402 ms/op
+# Warmup Iteration   5: 0.403 ms/op
+Iteration   1: 0.401 ms/op
+Iteration   2: 0.402 ms/op
+Iteration   3: 0.403 ms/op
+Iteration   4: 0.402 ms/op
+Iteration   5: 0.403 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.399 ±(99.9%) 0.004 ms/op [Average]
+  (min, avg, max) = (0.393, 0.399, 0.403), stdev = 0.004
+  CI (99.9%): [0.395, 0.403] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 64, percentage = 0.6)
+
+# Run progress: 51.11% complete, ETA 00:11:58
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.412 ms/op
+# Warmup Iteration   2: 0.339 ms/op
+# Warmup Iteration   3: 0.335 ms/op
+# Warmup Iteration   4: 0.335 ms/op
+# Warmup Iteration   5: 0.336 ms/op
+Iteration   1: 0.334 ms/op
+Iteration   2: 0.335 ms/op
+Iteration   3: 0.335 ms/op
+Iteration   4: 0.336 ms/op
+Iteration   5: 0.335 ms/op
+
+# Run progress: 51.85% complete, ETA 00:11:46
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.431 ms/op
+# Warmup Iteration   2: 0.342 ms/op
+# Warmup Iteration   3: 0.335 ms/op
+# Warmup Iteration   4: 0.334 ms/op
+# Warmup Iteration   5: 0.337 ms/op
+Iteration   1: 0.333 ms/op
+Iteration   2: 0.336 ms/op
+Iteration   3: 0.334 ms/op
+Iteration   4: 0.334 ms/op
+Iteration   5: 0.333 ms/op
+
+# Run progress: 52.59% complete, ETA 00:11:35
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.408 ms/op
+# Warmup Iteration   2: 0.334 ms/op
+# Warmup Iteration   3: 0.334 ms/op
+# Warmup Iteration   4: 0.335 ms/op
+# Warmup Iteration   5: 0.335 ms/op
+Iteration   1: 0.335 ms/op
+Iteration   2: 0.334 ms/op
+Iteration   3: 0.334 ms/op
+Iteration   4: 0.335 ms/op
+Iteration   5: 0.334 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.335 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.333, 0.335, 0.336), stdev = 0.001
+  CI (99.9%): [0.334, 0.335] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 64, percentage = 0.8)
+
+# Run progress: 53.33% complete, ETA 00:11:24
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.312 ms/op
+# Warmup Iteration   2: 0.256 ms/op
+# Warmup Iteration   3: 0.256 ms/op
+# Warmup Iteration   4: 0.256 ms/op
+# Warmup Iteration   5: 0.256 ms/op
+Iteration   1: 0.256 ms/op
+Iteration   2: 0.256 ms/op
+Iteration   3: 0.256 ms/op
+Iteration   4: 0.257 ms/op
+Iteration   5: 0.256 ms/op
+
+# Run progress: 54.07% complete, ETA 00:11:12
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.312 ms/op
+# Warmup Iteration   2: 0.250 ms/op
+# Warmup Iteration   3: 0.251 ms/op
+# Warmup Iteration   4: 0.251 ms/op
+# Warmup Iteration   5: 0.251 ms/op
+Iteration   1: 0.251 ms/op
+Iteration   2: 0.251 ms/op
+Iteration   3: 0.252 ms/op
+Iteration   4: 0.252 ms/op
+Iteration   5: 0.252 ms/op
+
+# Run progress: 54.81% complete, ETA 00:11:01
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.313 ms/op
+# Warmup Iteration   2: 0.252 ms/op
+# Warmup Iteration   3: 0.253 ms/op
+# Warmup Iteration   4: 0.252 ms/op
+# Warmup Iteration   5: 0.254 ms/op
+Iteration   1: 0.256 ms/op
+Iteration   2: 0.252 ms/op
+Iteration   3: 0.254 ms/op
+Iteration   4: 0.252 ms/op
+Iteration   5: 0.252 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  0.253 ±(99.9%) 0.002 ms/op [Average]
+  (min, avg, max) = (0.251, 0.253, 0.257), stdev = 0.002
+  CI (99.9%): [0.251, 0.256] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 128, percentage = 0)
+
+# Run progress: 55.56% complete, ETA 00:10:50
+# Fork: 1 of 3
+# Warmup Iteration   1: 3.396 ms/op
+# Warmup Iteration   2: 2.727 ms/op
+# Warmup Iteration   3: 2.711 ms/op
+# Warmup Iteration   4: 2.702 ms/op
+# Warmup Iteration   5: 2.667 ms/op
+Iteration   1: 2.672 ms/op
+Iteration   2: 2.671 ms/op
+Iteration   3: 2.705 ms/op
+Iteration   4: 2.656 ms/op
+Iteration   5: 2.671 ms/op
+
+# Run progress: 56.30% complete, ETA 00:10:39
+# Fork: 2 of 3
+# Warmup Iteration   1: 3.237 ms/op
+# Warmup Iteration   2: 2.735 ms/op
+# Warmup Iteration   3: 2.702 ms/op
+# Warmup Iteration   4: 2.691 ms/op
+# Warmup Iteration   5: 2.696 ms/op
+Iteration   1: 2.701 ms/op
+Iteration   2: 2.709 ms/op
+Iteration   3: 2.693 ms/op
+Iteration   4: 2.697 ms/op
+Iteration   5: 2.694 ms/op
+
+# Run progress: 57.04% complete, ETA 00:10:28
+# Fork: 3 of 3
+# Warmup Iteration   1: 3.455 ms/op
+# Warmup Iteration   2: 2.897 ms/op
+# Warmup Iteration   3: 2.801 ms/op
+# Warmup Iteration   4: 2.801 ms/op
+# Warmup Iteration   5: 2.789 ms/op
+Iteration   1: 2.784 ms/op
+Iteration   2: 2.796 ms/op
+Iteration   3: 2.778 ms/op
+Iteration   4: 2.792 ms/op
+Iteration   5: 2.789 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  2.721 ±(99.9%) 0.055 ms/op [Average]
+  (min, avg, max) = (2.656, 2.721, 2.796), stdev = 0.051
+  CI (99.9%): [2.666, 2.776] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 128, percentage = 0.2)
+
+# Run progress: 57.78% complete, ETA 00:10:16
+# Fork: 1 of 3
+# Warmup Iteration   1: 2.700 ms/op
+# Warmup Iteration   2: 2.312 ms/op
+# Warmup Iteration   3: 2.305 ms/op
+# Warmup Iteration   4: 2.300 ms/op
+# Warmup Iteration   5: 2.312 ms/op
+Iteration   1: 2.274 ms/op
+Iteration   2: 2.263 ms/op
+Iteration   3: 2.309 ms/op
+Iteration   4: 2.269 ms/op
+Iteration   5: 2.300 ms/op
+
+# Run progress: 58.52% complete, ETA 00:10:05
+# Fork: 2 of 3
+# Warmup Iteration   1: 2.742 ms/op
+# Warmup Iteration   2: 2.341 ms/op
+# Warmup Iteration   3: 2.320 ms/op
+# Warmup Iteration   4: 2.276 ms/op
+# Warmup Iteration   5: 2.278 ms/op
+Iteration   1: 2.277 ms/op
+Iteration   2: 2.268 ms/op
+Iteration   3: 2.277 ms/op
+Iteration   4: 2.267 ms/op
+Iteration   5: 2.321 ms/op
+
+# Run progress: 59.26% complete, ETA 00:09:54
+# Fork: 3 of 3
+# Warmup Iteration   1: 2.745 ms/op
+# Warmup Iteration   2: 2.326 ms/op
+# Warmup Iteration   3: 2.275 ms/op
+# Warmup Iteration   4: 2.299 ms/op
+# Warmup Iteration   5: 2.276 ms/op
+Iteration   1: 2.277 ms/op
+Iteration   2: 2.310 ms/op
+Iteration   3: 2.305 ms/op
+Iteration   4: 2.315 ms/op
+Iteration   5: 2.308 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  2.289 ±(99.9%) 0.022 ms/op [Average]
+  (min, avg, max) = (2.263, 2.289, 2.321), stdev = 0.020
+  CI (99.9%): [2.268, 2.311] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 128, percentage = 0.4)
+
+# Run progress: 60.00% complete, ETA 00:09:43
+# Fork: 1 of 3
+# Warmup Iteration   1: 2.189 ms/op
+# Warmup Iteration   2: 1.882 ms/op
+# Warmup Iteration   3: 1.875 ms/op
+# Warmup Iteration   4: 1.987 ms/op
+# Warmup Iteration   5: 1.882 ms/op
+Iteration   1: 1.875 ms/op
+Iteration   2: 1.880 ms/op
+Iteration   3: 1.865 ms/op
+Iteration   4: 1.865 ms/op
+Iteration   5: 1.864 ms/op
+
+# Run progress: 60.74% complete, ETA 00:09:32
+# Fork: 2 of 3
+# Warmup Iteration   1: 2.244 ms/op
+# Warmup Iteration   2: 1.941 ms/op
+# Warmup Iteration   3: 1.857 ms/op
+# Warmup Iteration   4: 1.902 ms/op
+# Warmup Iteration   5: 1.903 ms/op
+Iteration   1: 1.865 ms/op
+Iteration   2: 1.886 ms/op
+Iteration   3: 1.889 ms/op
+Iteration   4: 1.891 ms/op
+Iteration   5: 1.893 ms/op
+
+# Run progress: 61.48% complete, ETA 00:09:21
+# Fork: 3 of 3
+# Warmup Iteration   1: 2.183 ms/op
+# Warmup Iteration   2: 1.897 ms/op
+# Warmup Iteration   3: 1.876 ms/op
+# Warmup Iteration   4: 1.867 ms/op
+# Warmup Iteration   5: 1.865 ms/op
+Iteration   1: 1.870 ms/op
+Iteration   2: 1.869 ms/op
+Iteration   3: 1.862 ms/op
+Iteration   4: 1.868 ms/op
+Iteration   5: 1.870 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  1.874 ±(99.9%) 0.012 ms/op [Average]
+  (min, avg, max) = (1.862, 1.874, 1.893), stdev = 0.011
+  CI (99.9%): [1.863, 1.886] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 128, percentage = 0.6)
+
+# Run progress: 62.22% complete, ETA 00:09:10
+# Fork: 1 of 3
+# Warmup Iteration   1: 1.705 ms/op
+# Warmup Iteration   2: 1.450 ms/op
+# Warmup Iteration   3: 1.433 ms/op
+# Warmup Iteration   4: 1.435 ms/op
+# Warmup Iteration   5: 1.434 ms/op
+Iteration   1: 1.435 ms/op
+Iteration   2: 1.433 ms/op
+Iteration   3: 1.430 ms/op
+Iteration   4: 1.434 ms/op
+Iteration   5: 1.432 ms/op
+
+# Run progress: 62.96% complete, ETA 00:08:59
+# Fork: 2 of 3
+# Warmup Iteration   1: 1.704 ms/op
+# Warmup Iteration   2: 1.449 ms/op
+# Warmup Iteration   3: 1.433 ms/op
+# Warmup Iteration   4: 1.427 ms/op
+# Warmup Iteration   5: 1.427 ms/op
+Iteration   1: 1.428 ms/op
+Iteration   2: 1.425 ms/op
+Iteration   3: 1.430 ms/op
+Iteration   4: 1.435 ms/op
+Iteration   5: 1.434 ms/op
+
+# Run progress: 63.70% complete, ETA 00:08:48
+# Fork: 3 of 3
+# Warmup Iteration   1: 1.695 ms/op
+# Warmup Iteration   2: 1.440 ms/op
+# Warmup Iteration   3: 1.425 ms/op
+# Warmup Iteration   4: 1.429 ms/op
+# Warmup Iteration   5: 1.428 ms/op
+Iteration   1: 1.417 ms/op
+Iteration   2: 1.417 ms/op
+Iteration   3: 1.426 ms/op
+Iteration   4: 1.429 ms/op
+Iteration   5: 1.428 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  1.429 ±(99.9%) 0.006 ms/op [Average]
+  (min, avg, max) = (1.417, 1.429, 1.435), stdev = 0.006
+  CI (99.9%): [1.423, 1.435] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 128, percentage = 0.8)
+
+# Run progress: 64.44% complete, ETA 00:08:37
+# Fork: 1 of 3
+# Warmup Iteration   1: 1.261 ms/op
+# Warmup Iteration   2: 1.043 ms/op
+# Warmup Iteration   3: 1.033 ms/op
+# Warmup Iteration   4: 1.043 ms/op
+# Warmup Iteration   5: 1.035 ms/op
+Iteration   1: 1.044 ms/op
+Iteration   2: 1.047 ms/op
+Iteration   3: 1.040 ms/op
+Iteration   4: 1.049 ms/op
+Iteration   5: 1.051 ms/op
+
+# Run progress: 65.19% complete, ETA 00:08:26
+# Fork: 2 of 3
+# Warmup Iteration   1: 1.249 ms/op
+# Warmup Iteration   2: 1.049 ms/op
+# Warmup Iteration   3: 1.033 ms/op
+# Warmup Iteration   4: 1.039 ms/op
+# Warmup Iteration   5: 1.042 ms/op
+Iteration   1: 1.040 ms/op
+Iteration   2: 1.047 ms/op
+Iteration   3: 1.045 ms/op
+Iteration   4: 1.047 ms/op
+Iteration   5: 1.047 ms/op
+
+# Run progress: 65.93% complete, ETA 00:08:15
+# Fork: 3 of 3
+# Warmup Iteration   1: 1.238 ms/op
+# Warmup Iteration   2: 1.031 ms/op
+# Warmup Iteration   3: 1.034 ms/op
+# Warmup Iteration   4: 1.039 ms/op
+# Warmup Iteration   5: 1.031 ms/op
+Iteration   1: 1.035 ms/op
+Iteration   2: 1.042 ms/op
+Iteration   3: 1.041 ms/op
+Iteration   4: 1.048 ms/op
+Iteration   5: 1.040 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  1.044 ±(99.9%) 0.005 ms/op [Average]
+  (min, avg, max) = (1.035, 1.044, 1.051), stdev = 0.004
+  CI (99.9%): [1.039, 1.049] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 256, percentage = 0)
+
+# Run progress: 66.67% complete, ETA 00:08:04
+# Fork: 1 of 3
+# Warmup Iteration   1: 20.500 ms/op
+# Warmup Iteration   2: 17.237 ms/op
+# Warmup Iteration   3: 17.219 ms/op
+# Warmup Iteration   4: 17.044 ms/op
+# Warmup Iteration   5: 17.236 ms/op
+Iteration   1: 16.974 ms/op
+Iteration   2: 17.211 ms/op
+Iteration   3: 17.239 ms/op
+Iteration   4: 16.890 ms/op
+Iteration   5: 17.099 ms/op
+
+# Run progress: 67.41% complete, ETA 00:07:53
+# Fork: 2 of 3
+# Warmup Iteration   1: 23.542 ms/op
+# Warmup Iteration   2: 17.260 ms/op
+# Warmup Iteration   3: 17.342 ms/op
+# Warmup Iteration   4: 17.304 ms/op
+# Warmup Iteration   5: 17.090 ms/op
+Iteration   1: 17.104 ms/op
+Iteration   2: 17.631 ms/op
+Iteration   3: 17.325 ms/op
+Iteration   4: 17.260 ms/op
+Iteration   5: 17.034 ms/op
+
+# Run progress: 68.15% complete, ETA 00:07:42
+# Fork: 3 of 3
+# Warmup Iteration   1: 21.434 ms/op
+# Warmup Iteration   2: 17.546 ms/op
+# Warmup Iteration   3: 17.229 ms/op
+# Warmup Iteration   4: 17.286 ms/op
+# Warmup Iteration   5: 17.305 ms/op
+Iteration   1: 17.123 ms/op
+Iteration   2: 17.163 ms/op
+Iteration   3: 17.284 ms/op
+Iteration   4: 17.221 ms/op
+Iteration   5: 17.139 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  17.180 ±(99.9%) 0.184 ms/op [Average]
+  (min, avg, max) = (16.890, 17.180, 17.631), stdev = 0.172
+  CI (99.9%): [16.996, 17.364] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 256, percentage = 0.2)
+
+# Run progress: 68.89% complete, ETA 00:07:31
+# Fork: 1 of 3
+# Warmup Iteration   1: 16.210 ms/op
+# Warmup Iteration   2: 13.742 ms/op
+# Warmup Iteration   3: 13.488 ms/op
+# Warmup Iteration   4: 14.384 ms/op
+# Warmup Iteration   5: 13.443 ms/op
+Iteration   1: 13.566 ms/op
+Iteration   2: 13.446 ms/op
+Iteration   3: 13.477 ms/op
+Iteration   4: 13.451 ms/op
+Iteration   5: 13.446 ms/op
+
+# Run progress: 69.63% complete, ETA 00:07:20
+# Fork: 2 of 3
+# Warmup Iteration   1: 16.912 ms/op
+# Warmup Iteration   2: 13.915 ms/op
+# Warmup Iteration   3: 13.765 ms/op
+# Warmup Iteration   4: 13.616 ms/op
+# Warmup Iteration   5: 13.621 ms/op
+Iteration   1: 13.594 ms/op
+Iteration   2: 13.608 ms/op
+Iteration   3: 13.627 ms/op
+Iteration   4: 13.608 ms/op
+Iteration   5: 13.606 ms/op
+
+# Run progress: 70.37% complete, ETA 00:07:10
+# Fork: 3 of 3
+# Warmup Iteration   1: 17.323 ms/op
+# Warmup Iteration   2: 13.848 ms/op
+# Warmup Iteration   3: 13.646 ms/op
+# Warmup Iteration   4: 13.580 ms/op
+# Warmup Iteration   5: 13.640 ms/op
+Iteration   1: 13.631 ms/op
+Iteration   2: 13.608 ms/op
+Iteration   3: 13.609 ms/op
+Iteration   4: 13.551 ms/op
+Iteration   5: 13.623 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  13.563 ±(99.9%) 0.076 ms/op [Average]
+  (min, avg, max) = (13.446, 13.563, 13.631), stdev = 0.071
+  CI (99.9%): [13.487, 13.639] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 256, percentage = 0.4)
+
+# Run progress: 71.11% complete, ETA 00:06:59
+# Fork: 1 of 3
+# Warmup Iteration   1: 11.935 ms/op
+# Warmup Iteration   2: 10.123 ms/op
+# Warmup Iteration   3: 9.943 ms/op
+# Warmup Iteration   4: 10.014 ms/op
+# Warmup Iteration   5: 9.930 ms/op
+Iteration   1: 9.998 ms/op
+Iteration   2: 9.920 ms/op
+Iteration   3: 9.927 ms/op
+Iteration   4: 9.945 ms/op
+Iteration   5: 10.002 ms/op
+
+# Run progress: 71.85% complete, ETA 00:06:48
+# Fork: 2 of 3
+# Warmup Iteration   1: 12.212 ms/op
+# Warmup Iteration   2: 10.016 ms/op
+# Warmup Iteration   3: 9.878 ms/op
+# Warmup Iteration   4: 9.885 ms/op
+# Warmup Iteration   5: 9.895 ms/op
+Iteration   1: 9.904 ms/op
+Iteration   2: 9.933 ms/op
+Iteration   3: 9.914 ms/op
+Iteration   4: 9.834 ms/op
+Iteration   5: 9.833 ms/op
+
+# Run progress: 72.59% complete, ETA 00:06:37
+# Fork: 3 of 3
+# Warmup Iteration   1: 12.387 ms/op
+# Warmup Iteration   2: 10.044 ms/op
+# Warmup Iteration   3: 9.896 ms/op
+# Warmup Iteration   4: 9.884 ms/op
+# Warmup Iteration   5: 9.896 ms/op
+Iteration   1: 9.886 ms/op
+Iteration   2: 9.884 ms/op
+Iteration   3: 9.889 ms/op
+Iteration   4: 9.897 ms/op
+Iteration   5: 9.870 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  9.909 ±(99.9%) 0.052 ms/op [Average]
+  (min, avg, max) = (9.833, 9.909, 10.002), stdev = 0.049
+  CI (99.9%): [9.857, 9.961] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 256, percentage = 0.6)
+
+# Run progress: 73.33% complete, ETA 00:06:26
+# Fork: 1 of 3
+# Warmup Iteration   1: 8.767 ms/op
+# Warmup Iteration   2: 6.997 ms/op
+# Warmup Iteration   3: 6.889 ms/op
+# Warmup Iteration   4: 6.890 ms/op
+# Warmup Iteration   5: 6.886 ms/op
+Iteration   1: 6.845 ms/op
+Iteration   2: 6.894 ms/op
+Iteration   3: 6.845 ms/op
+Iteration   4: 6.898 ms/op
+Iteration   5: 6.852 ms/op
+
+# Run progress: 74.07% complete, ETA 00:06:15
+# Fork: 2 of 3
+# Warmup Iteration   1: 8.213 ms/op
+# Warmup Iteration   2: 6.991 ms/op
+# Warmup Iteration   3: 6.903 ms/op
+# Warmup Iteration   4: 6.930 ms/op
+# Warmup Iteration   5: 6.928 ms/op
+Iteration   1: 6.919 ms/op
+Iteration   2: 6.896 ms/op
+Iteration   3: 6.893 ms/op
+Iteration   4: 6.908 ms/op
+Iteration   5: 6.889 ms/op
+
+# Run progress: 74.81% complete, ETA 00:06:04
+# Fork: 3 of 3
+# Warmup Iteration   1: 8.088 ms/op
+# Warmup Iteration   2: 7.009 ms/op
+# Warmup Iteration   3: 7.138 ms/op
+# Warmup Iteration   4: 6.941 ms/op
+# Warmup Iteration   5: 6.980 ms/op
+Iteration   1: 6.936 ms/op
+Iteration   2: 7.014 ms/op
+Iteration   3: 6.952 ms/op
+Iteration   4: 6.932 ms/op
+Iteration   5: 6.913 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  6.906 ±(99.9%) 0.047 ms/op [Average]
+  (min, avg, max) = (6.845, 6.906, 7.014), stdev = 0.044
+  CI (99.9%): [6.859, 6.953] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 256, percentage = 0.8)
+
+# Run progress: 75.56% complete, ETA 00:05:54
+# Fork: 1 of 3
+# Warmup Iteration   1: 5.457 ms/op
+# Warmup Iteration   2: 4.468 ms/op
+# Warmup Iteration   3: 4.450 ms/op
+# Warmup Iteration   4: 4.369 ms/op
+# Warmup Iteration   5: 4.386 ms/op
+Iteration   1: 4.369 ms/op
+Iteration   2: 4.393 ms/op
+Iteration   3: 4.395 ms/op
+Iteration   4: 4.384 ms/op
+Iteration   5: 4.386 ms/op
+
+# Run progress: 76.30% complete, ETA 00:05:43
+# Fork: 2 of 3
+# Warmup Iteration   1: 5.325 ms/op
+# Warmup Iteration   2: 4.502 ms/op
+# Warmup Iteration   3: 4.495 ms/op
+# Warmup Iteration   4: 4.425 ms/op
+# Warmup Iteration   5: 4.445 ms/op
+Iteration   1: 4.403 ms/op
+Iteration   2: 4.416 ms/op
+Iteration   3: 4.449 ms/op
+Iteration   4: 4.401 ms/op
+Iteration   5: 4.441 ms/op
+
+# Run progress: 77.04% complete, ETA 00:05:32
+# Fork: 3 of 3
+# Warmup Iteration   1: 5.305 ms/op
+# Warmup Iteration   2: 4.503 ms/op
+# Warmup Iteration   3: 4.438 ms/op
+# Warmup Iteration   4: 4.407 ms/op
+# Warmup Iteration   5: 4.413 ms/op
+Iteration   1: 4.411 ms/op
+Iteration   2: 4.437 ms/op
+Iteration   3: 4.433 ms/op
+Iteration   4: 4.440 ms/op
+Iteration   5: 4.424 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  4.412 ±(99.9%) 0.026 ms/op [Average]
+  (min, avg, max) = (4.369, 4.412, 4.449), stdev = 0.025
+  CI (99.9%): [4.386, 4.438] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 512, percentage = 0)
+
+# Run progress: 77.78% complete, ETA 00:05:21
+# Fork: 1 of 3
+# Warmup Iteration   1: 156.815 ms/op
+# Warmup Iteration   2: 132.372 ms/op
+# Warmup Iteration   3: 148.958 ms/op
+# Warmup Iteration   4: 145.665 ms/op
+# Warmup Iteration   5: 138.747 ms/op
+Iteration   1: 133.708 ms/op
+Iteration   2: 136.949 ms/op
+Iteration   3: 153.868 ms/op
+Iteration   4: 121.368 ms/op
+Iteration   5: 144.493 ms/op
+
+# Run progress: 78.52% complete, ETA 00:05:10
+# Fork: 2 of 3
+# Warmup Iteration   1: 178.554 ms/op
+# Warmup Iteration   2: 143.519 ms/op
+# Warmup Iteration   3: 137.575 ms/op
+# Warmup Iteration   4: 140.247 ms/op
+# Warmup Iteration   5: 157.934 ms/op
+Iteration   1: 186.648 ms/op
+Iteration   2: 264.421 ms/op
+Iteration   3: 214.331 ms/op
+Iteration   4: 212.375 ms/op
+Iteration   5: 188.198 ms/op
+
+# Run progress: 79.26% complete, ETA 00:05:00
+# Fork: 3 of 3
+# Warmup Iteration   1: 221.609 ms/op
+# Warmup Iteration   2: 173.940 ms/op
+# Warmup Iteration   3: 180.996 ms/op
+# Warmup Iteration   4: 161.750 ms/op
+# Warmup Iteration   5: 178.132 ms/op
+Iteration   1: 151.935 ms/op
+Iteration   2: 174.893 ms/op
+Iteration   3: 170.166 ms/op
+Iteration   4: 176.042 ms/op
+Iteration   5: 176.270 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  173.711 ±(99.9%) 39.579 ms/op [Average]
+  (min, avg, max) = (121.368, 173.711, 264.421), stdev = 37.023
+  CI (99.9%): [134.132, 213.290] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 512, percentage = 0.2)
+
+# Run progress: 80.00% complete, ETA 00:04:49
+# Fork: 1 of 3
+# Warmup Iteration   1: 179.118 ms/op
+# Warmup Iteration   2: 136.425 ms/op
+# Warmup Iteration   3: 132.081 ms/op
+# Warmup Iteration   4: 122.624 ms/op
+# Warmup Iteration   5: 128.358 ms/op
+Iteration   1: 137.236 ms/op
+Iteration   2: 126.086 ms/op
+Iteration   3: 129.152 ms/op
+Iteration   4: 125.956 ms/op
+Iteration   5: 122.520 ms/op
+
+# Run progress: 80.74% complete, ETA 00:04:39
+# Fork: 2 of 3
+# Warmup Iteration   1: 183.559 ms/op
+# Warmup Iteration   2: 138.997 ms/op
+# Warmup Iteration   3: 128.359 ms/op
+# Warmup Iteration   4: 135.779 ms/op
+# Warmup Iteration   5: 113.958 ms/op
+Iteration   1: 149.828 ms/op
+Iteration   2: 131.938 ms/op
+Iteration   3: 122.769 ms/op
+Iteration   4: 123.669 ms/op
+Iteration   5: 115.135 ms/op
+
+# Run progress: 81.48% complete, ETA 00:04:28
+# Fork: 3 of 3
+# Warmup Iteration   1: 154.789 ms/op
+# Warmup Iteration   2: 114.902 ms/op
+# Warmup Iteration   3: 112.026 ms/op
+# Warmup Iteration   4: 118.856 ms/op
+# Warmup Iteration   5: 119.141 ms/op
+Iteration   1: 107.816 ms/op
+Iteration   2: 123.648 ms/op
+Iteration   3: 111.501 ms/op
+Iteration   4: 117.897 ms/op
+Iteration   5: 106.833 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  123.466 ±(99.9%) 12.015 ms/op [Average]
+  (min, avg, max) = (106.833, 123.466, 149.828), stdev = 11.239
+  CI (99.9%): [111.451, 135.481] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 512, percentage = 0.4)
+
+# Run progress: 82.22% complete, ETA 00:04:18
+# Fork: 1 of 3
+# Warmup Iteration   1: 126.298 ms/op
+# Warmup Iteration   2: 87.318 ms/op
+# Warmup Iteration   3: 84.058 ms/op
+# Warmup Iteration   4: 86.694 ms/op
+# Warmup Iteration   5: 83.526 ms/op
+Iteration   1: 87.081 ms/op
+Iteration   2: 72.457 ms/op
+Iteration   3: 84.022 ms/op
+Iteration   4: 72.836 ms/op
+Iteration   5: 89.489 ms/op
+
+# Run progress: 82.96% complete, ETA 00:04:07
+# Fork: 2 of 3
+# Warmup Iteration   1: 115.495 ms/op
+# Warmup Iteration   2: 84.658 ms/op
+# Warmup Iteration   3: 81.424 ms/op
+# Warmup Iteration   4: 83.616 ms/op
+# Warmup Iteration   5: 78.551 ms/op
+Iteration   1: 81.464 ms/op
+Iteration   2: 78.144 ms/op
+Iteration   3: 68.315 ms/op
+Iteration   4: 79.562 ms/op
+Iteration   5: 78.596 ms/op
+
+# Run progress: 83.70% complete, ETA 00:03:56
+# Fork: 3 of 3
+# Warmup Iteration   1: 126.222 ms/op
+# Warmup Iteration   2: 79.193 ms/op
+# Warmup Iteration   3: 75.843 ms/op
+# Warmup Iteration   4: 80.484 ms/op
+# Warmup Iteration   5: 73.049 ms/op
+Iteration   1: 78.120 ms/op
+Iteration   2: 73.177 ms/op
+Iteration   3: 69.048 ms/op
+Iteration   4: 78.546 ms/op
+Iteration   5: 76.867 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  77.848 ±(99.9%) 6.524 ms/op [Average]
+  (min, avg, max) = (68.315, 77.848, 89.489), stdev = 6.103
+  CI (99.9%): [71.324, 84.372] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 512, percentage = 0.6)
+
+# Run progress: 84.44% complete, ETA 00:03:45
+# Fork: 1 of 3
+# Warmup Iteration   1: 68.948 ms/op
+# Warmup Iteration   2: 52.085 ms/op
+# Warmup Iteration   3: 47.922 ms/op
+# Warmup Iteration   4: 47.234 ms/op
+# Warmup Iteration   5: 51.144 ms/op
+Iteration   1: 48.522 ms/op
+Iteration   2: 44.886 ms/op
+Iteration   3: 48.967 ms/op
+Iteration   4: 48.804 ms/op
+Iteration   5: 45.644 ms/op
+
+# Run progress: 85.19% complete, ETA 00:03:35
+# Fork: 2 of 3
+# Warmup Iteration   1: 67.676 ms/op
+# Warmup Iteration   2: 51.138 ms/op
+# Warmup Iteration   3: 51.139 ms/op
+# Warmup Iteration   4: 47.182 ms/op
+# Warmup Iteration   5: 47.899 ms/op
+Iteration   1: 45.042 ms/op
+Iteration   2: 51.702 ms/op
+Iteration   3: 49.056 ms/op
+Iteration   4: 44.803 ms/op
+Iteration   5: 48.987 ms/op
+
+# Run progress: 85.93% complete, ETA 00:03:24
+# Fork: 3 of 3
+# Warmup Iteration   1: 68.336 ms/op
+# Warmup Iteration   2: 50.427 ms/op
+# Warmup Iteration   3: 50.613 ms/op
+# Warmup Iteration   4: 47.760 ms/op
+# Warmup Iteration   5: 47.822 ms/op
+Iteration   1: 48.130 ms/op
+Iteration   2: 44.885 ms/op
+Iteration   3: 47.895 ms/op
+Iteration   4: 50.862 ms/op
+Iteration   5: 43.865 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  47.470 ±(99.9%) 2.598 ms/op [Average]
+  (min, avg, max) = (43.865, 47.470, 51.702), stdev = 2.430
+  CI (99.9%): [44.872, 50.068] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 512, percentage = 0.8)
+
+# Run progress: 86.67% complete, ETA 00:03:13
+# Fork: 1 of 3
+# Warmup Iteration   1: 46.200 ms/op
+# Warmup Iteration   2: 32.723 ms/op
+# Warmup Iteration   3: 37.154 ms/op
+# Warmup Iteration   4: 32.689 ms/op
+# Warmup Iteration   5: 36.136 ms/op
+Iteration   1: 29.892 ms/op
+Iteration   2: 29.871 ms/op
+Iteration   3: 29.908 ms/op
+Iteration   4: 28.647 ms/op
+Iteration   5: 29.511 ms/op
+
+# Run progress: 87.41% complete, ETA 00:03:02
+# Fork: 2 of 3
+# Warmup Iteration   1: 42.748 ms/op
+# Warmup Iteration   2: 30.022 ms/op
+# Warmup Iteration   3: 31.585 ms/op
+# Warmup Iteration   4: 28.922 ms/op
+# Warmup Iteration   5: 28.828 ms/op
+Iteration   1: 29.084 ms/op
+Iteration   2: 29.087 ms/op
+Iteration   3: 29.049 ms/op
+Iteration   4: 28.988 ms/op
+Iteration   5: 27.053 ms/op
+
+# Run progress: 88.15% complete, ETA 00:02:52
+# Fork: 3 of 3
+# Warmup Iteration   1: 42.382 ms/op
+# Warmup Iteration   2: 29.222 ms/op
+# Warmup Iteration   3: 30.865 ms/op
+# Warmup Iteration   4: 28.165 ms/op
+# Warmup Iteration   5: 29.013 ms/op
+Iteration   1: 34.078 ms/op
+Iteration   2: 30.510 ms/op
+Iteration   3: 30.170 ms/op
+Iteration   4: 36.339 ms/op
+Iteration   5: 36.582 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  30.584 ±(99.9%) 2.992 ms/op [Average]
+  (min, avg, max) = (27.053, 30.584, 36.582), stdev = 2.799
+  CI (99.9%): [27.592, 33.577] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 1024, percentage = 0)
+
+# Run progress: 88.89% complete, ETA 00:02:41
+# Fork: 1 of 3
+# Warmup Iteration   1: 1330.003 ms/op
+# Warmup Iteration   2: 1092.660 ms/op
+# Warmup Iteration   3: 1053.178 ms/op
+# Warmup Iteration   4: 1009.458 ms/op
+# Warmup Iteration   5: 1048.002 ms/op
+Iteration   1: 1009.885 ms/op
+Iteration   2: 1069.549 ms/op
+Iteration   3: 1055.950 ms/op
+Iteration   4: 1019.403 ms/op
+Iteration   5: 1070.540 ms/op
+
+# Run progress: 89.63% complete, ETA 00:02:30
+# Fork: 2 of 3
+# Warmup Iteration   1: 1214.663 ms/op
+# Warmup Iteration   2: 1069.131 ms/op
+# Warmup Iteration   3: 1041.534 ms/op
+# Warmup Iteration   4: 1127.645 ms/op
+# Warmup Iteration   5: 1194.223 ms/op
+Iteration   1: 1241.345 ms/op
+Iteration   2: 1165.754 ms/op
+Iteration   3: 1058.903 ms/op
+Iteration   4: 1181.374 ms/op
+Iteration   5: 1139.901 ms/op
+
+# Run progress: 90.37% complete, ETA 00:02:20
+# Fork: 3 of 3
+# Warmup Iteration   1: 1187.916 ms/op
+# Warmup Iteration   2: 1131.683 ms/op
+# Warmup Iteration   3: 1048.610 ms/op
+# Warmup Iteration   4: 1028.392 ms/op
+# Warmup Iteration   5: 1060.429 ms/op
+Iteration   1: 1002.217 ms/op
+Iteration   2: 1061.042 ms/op
+Iteration   3: 1069.153 ms/op
+Iteration   4: 1195.405 ms/op
+Iteration   5: 1212.306 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  1103.515 ±(99.9%) 83.846 ms/op [Average]
+  (min, avg, max) = (1002.217, 1103.515, 1241.345), stdev = 78.430
+  CI (99.9%): [1019.669, 1187.361] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 1024, percentage = 0.2)
+
+# Run progress: 91.11% complete, ETA 00:02:09
+# Fork: 1 of 3
+# Warmup Iteration   1: 920.075 ms/op
+# Warmup Iteration   2: 779.487 ms/op
+# Warmup Iteration   3: 932.325 ms/op
+# Warmup Iteration   4: 792.273 ms/op
+# Warmup Iteration   5: 802.718 ms/op
+Iteration   1: 776.777 ms/op
+Iteration   2: 702.915 ms/op
+Iteration   3: 835.098 ms/op
+Iteration   4: 738.646 ms/op
+Iteration   5: 822.862 ms/op
+
+# Run progress: 91.85% complete, ETA 00:01:59
+# Fork: 2 of 3
+# Warmup Iteration   1: 1006.868 ms/op
+# Warmup Iteration   2: 830.604 ms/op
+# Warmup Iteration   3: 913.943 ms/op
+# Warmup Iteration   4: 809.717 ms/op
+# Warmup Iteration   5: 785.995 ms/op
+Iteration   1: 721.683 ms/op
+Iteration   2: 860.451 ms/op
+Iteration   3: 782.001 ms/op
+Iteration   4: 765.908 ms/op
+Iteration   5: 810.947 ms/op
+
+# Run progress: 92.59% complete, ETA 00:01:49
+# Fork: 3 of 3
+# Warmup Iteration   1: 897.158 ms/op
+# Warmup Iteration   2: 753.813 ms/op
+# Warmup Iteration   3: 828.013 ms/op
+# Warmup Iteration   4: 927.541 ms/op
+# Warmup Iteration   5: 848.685 ms/op
+Iteration   1: 789.269 ms/op
+Iteration   2: 828.641 ms/op
+Iteration   3: 807.706 ms/op
+Iteration   4: 803.267 ms/op
+Iteration   5: 810.847 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  790.468 ±(99.9%) 46.632 ms/op [Average]
+  (min, avg, max) = (702.915, 790.468, 860.451), stdev = 43.620
+  CI (99.9%): [743.835, 837.100] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 1024, percentage = 0.4)
+
+# Run progress: 93.33% complete, ETA 00:01:38
+# Fork: 1 of 3
+# Warmup Iteration   1: 680.263 ms/op
+# Warmup Iteration   2: 554.466 ms/op
+# Warmup Iteration   3: 534.482 ms/op
+# Warmup Iteration   4: 550.594 ms/op
+# Warmup Iteration   5: 522.939 ms/op
+Iteration   1: 537.691 ms/op
+Iteration   2: 529.927 ms/op
+Iteration   3: 566.521 ms/op
+Iteration   4: 550.070 ms/op
+Iteration   5: 566.865 ms/op
+
+# Run progress: 94.07% complete, ETA 00:01:27
+# Fork: 2 of 3
+# Warmup Iteration   1: 689.440 ms/op
+# Warmup Iteration   2: 566.712 ms/op
+# Warmup Iteration   3: 543.389 ms/op
+# Warmup Iteration   4: 533.872 ms/op
+# Warmup Iteration   5: 524.793 ms/op
+Iteration   1: 523.717 ms/op
+Iteration   2: 575.290 ms/op
+Iteration   3: 507.274 ms/op
+Iteration   4: 589.891 ms/op
+Iteration   5: 530.864 ms/op
+
+# Run progress: 94.81% complete, ETA 00:01:16
+# Fork: 3 of 3
+# Warmup Iteration   1: 685.041 ms/op
+# Warmup Iteration   2: 576.458 ms/op
+# Warmup Iteration   3: 535.354 ms/op
+# Warmup Iteration   4: 570.886 ms/op
+# Warmup Iteration   5: 507.081 ms/op
+Iteration   1: 571.703 ms/op
+Iteration   2: 530.616 ms/op
+Iteration   3: 578.680 ms/op
+Iteration   4: 502.890 ms/op
+Iteration   5: 754.554 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  561.103 ±(99.9%) 63.957 ms/op [Average]
+  (min, avg, max) = (502.890, 561.103, 754.554), stdev = 59.825
+  CI (99.9%): [497.146, 625.060] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 1024, percentage = 0.6)
+
+# Run progress: 95.56% complete, ETA 00:01:05
+# Fork: 1 of 3
+# Warmup Iteration   1: 412.828 ms/op
+# Warmup Iteration   2: 304.096 ms/op
+# Warmup Iteration   3: 312.267 ms/op
+# Warmup Iteration   4: 307.369 ms/op
+# Warmup Iteration   5: 268.982 ms/op
+Iteration   1: 324.818 ms/op
+Iteration   2: 293.094 ms/op
+Iteration   3: 308.910 ms/op
+Iteration   4: 284.015 ms/op
+Iteration   5: 294.006 ms/op
+
+# Run progress: 96.30% complete, ETA 00:00:54
+# Fork: 2 of 3
+# Warmup Iteration   1: 395.812 ms/op
+# Warmup Iteration   2: 317.966 ms/op
+# Warmup Iteration   3: 339.677 ms/op
+# Warmup Iteration   4: 314.305 ms/op
+# Warmup Iteration   5: 290.593 ms/op
+Iteration   1: 278.645 ms/op
+Iteration   2: 356.154 ms/op
+Iteration   3: 268.031 ms/op
+Iteration   4: 343.005 ms/op
+Iteration   5: 284.591 ms/op
+
+# Run progress: 97.04% complete, ETA 00:00:44
+# Fork: 3 of 3
+# Warmup Iteration   1: 402.639 ms/op
+# Warmup Iteration   2: 330.514 ms/op
+# Warmup Iteration   3: 308.166 ms/op
+# Warmup Iteration   4: 308.817 ms/op
+# Warmup Iteration   5: 305.540 ms/op
+Iteration   1: 285.294 ms/op
+Iteration   2: 328.896 ms/op
+Iteration   3: 262.963 ms/op
+Iteration   4: 344.921 ms/op
+Iteration   5: 289.293 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  303.109 ±(99.9%) 31.511 ms/op [Average]
+  (min, avg, max) = (262.963, 303.109, 356.154), stdev = 29.475
+  CI (99.9%): [271.598, 334.620] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.16.1, Java HotSpot(TM) 64-Bit Server VM, 11.0.16.1+1-LTS-1
+# VM invoker: C:\Program Files\Java\jdk-11.0.16.1\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\lib\idea_rt.jar=64664:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.example.SparseMatrixMultiplicationBenchmarking.multiplication
+# Parameters: (n = 1024, percentage = 0.8)
+
+# Run progress: 97.78% complete, ETA 00:00:33
+# Fork: 1 of 3
+# Warmup Iteration   1: 205.895 ms/op
+# Warmup Iteration   2: 160.438 ms/op
+# Warmup Iteration   3: 143.101 ms/op
+# Warmup Iteration   4: 134.780 ms/op
+# Warmup Iteration   5: 157.842 ms/op
+Iteration   1: 140.506 ms/op
+Iteration   2: 137.967 ms/op
+Iteration   3: 132.276 ms/op
+Iteration   4: 159.202 ms/op
+Iteration   5: 139.605 ms/op
+
+# Run progress: 98.52% complete, ETA 00:00:22
+# Fork: 2 of 3
+# Warmup Iteration   1: 216.233 ms/op
+# Warmup Iteration   2: 155.965 ms/op
+# Warmup Iteration   3: 146.610 ms/op
+# Warmup Iteration   4: 136.660 ms/op
+# Warmup Iteration   5: 163.244 ms/op
+Iteration   1: 129.731 ms/op
+Iteration   2: 137.652 ms/op
+Iteration   3: 171.294 ms/op
+Iteration   4: 157.393 ms/op
+Iteration   5: 195.981 ms/op
+
+# Run progress: 99.26% complete, ETA 00:00:11
+# Fork: 3 of 3
+# Warmup Iteration   1: 306.929 ms/op
+# Warmup Iteration   2: 186.023 ms/op
+# Warmup Iteration   3: 191.238 ms/op
+# Warmup Iteration   4: 202.779 ms/op
+# Warmup Iteration   5: 184.089 ms/op
+Iteration   1: 167.363 ms/op
+Iteration   2: 145.172 ms/op
+Iteration   3: 144.936 ms/op
+Iteration   4: 169.510 ms/op
+Iteration   5: 157.200 ms/op
+
+
+Result "org.example.SparseMatrixMultiplicationBenchmarking.multiplication":
+  152.386 ±(99.9%) 19.431 ms/op [Average]
+  (min, avg, max) = (129.731, 152.386, 195.981), stdev = 18.176
+  CI (99.9%): [132.955, 171.817] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:24:48
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                               (n)  (percentage)  Mode  Cnt     Score    Error  Units
+SparseMatrixMultiplicationBenchmarking.multiplication     4             0  avgt   15     0.006 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication     4           0.2  avgt   15     0.006 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication     4           0.4  avgt   15     0.006 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication     4           0.6  avgt   15     0.006 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication     4           0.8  avgt   15     0.005 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication     8             0  avgt   15     0.016 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication     8           0.2  avgt   15     0.017 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication     8           0.4  avgt   15     0.017 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication     8           0.6  avgt   15     0.016 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication     8           0.8  avgt   15     0.011 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication    16             0  avgt   15     0.059 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication    16           0.2  avgt   15     0.061 ±  0.005  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication    16           0.4  avgt   15     0.056 ±  0.002  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication    16           0.6  avgt   15     0.051 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication    16           0.8  avgt   15     0.038 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication    32             0  avgt   15     0.127 ±  0.043  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication    32           0.2  avgt   15     0.102 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication    32           0.4  avgt   15     0.094 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication    32           0.6  avgt   15     0.082 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication    32           0.8  avgt   15     0.061 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication    64             0  avgt   15     0.489 ±  0.007  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication    64           0.2  avgt   15     0.432 ±  0.003  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication    64           0.4  avgt   15     0.399 ±  0.004  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication    64           0.6  avgt   15     0.335 ±  0.001  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication    64           0.8  avgt   15     0.253 ±  0.002  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication   128             0  avgt   15     2.721 ±  0.055  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication   128           0.2  avgt   15     2.289 ±  0.022  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication   128           0.4  avgt   15     1.874 ±  0.012  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication   128           0.6  avgt   15     1.429 ±  0.006  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication   128           0.8  avgt   15     1.044 ±  0.005  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication   256             0  avgt   15    17.180 ±  0.184  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication   256           0.2  avgt   15    13.563 ±  0.076  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication   256           0.4  avgt   15     9.909 ±  0.052  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication   256           0.6  avgt   15     6.906 ±  0.047  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication   256           0.8  avgt   15     4.412 ±  0.026  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication   512             0  avgt   15   173.711 ± 39.579  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication   512           0.2  avgt   15   123.466 ± 12.015  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication   512           0.4  avgt   15    77.848 ±  6.524  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication   512           0.6  avgt   15    47.470 ±  2.598  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication   512           0.8  avgt   15    30.584 ±  2.992  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication  1024             0  avgt   15  1103.515 ± 83.846  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication  1024           0.2  avgt   15   790.468 ± 46.632  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication  1024           0.4  avgt   15   561.103 ± 63.957  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication  1024           0.6  avgt   15   303.109 ± 31.511  ms/op
+SparseMatrixMultiplicationBenchmarking.multiplication  1024           0.8  avgt   15   152.386 ± 19.431  ms/op
+
+Process finished with exit code 0
